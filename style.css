@@ -16,6 +16,10 @@ header{
 	background-color: #ececec;
 }
 
+p{
+	font-family: 'Playpen Sans', cursive;
+}
+
 li{
 	list-style: none;
 	font-family: 'Playpen Sans', cursive;

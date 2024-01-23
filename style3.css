@@ -1,0 +1,68 @@
+h1{ font-family: 'Playpen Sans', cursive; }
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin-top: 100px;
+	position: relative;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #ececec;
+}
+
+p{
+	font-family: 'Playpen Sans', cursive;
+}
+
+li{
+	list-style: none;
+	font-family: 'Playpen Sans', cursive;
+}
+
+a{
+	color: #000000;
+	font-family: 'Playpen Sans', cursive;
+}
+
+.container{
+	width: 1280px;
+	margin: auto;
+}
+
+.navbar{
+	width: 95%;
+	margin: auto;
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav-branding{
+	font-size: 2rem;
+	font-family: 'Playpen Sans', cursive;
+}
+
+.Home, .FILL, .FILL1, .FILL2{
+	height: 720px;
+	margin-top: 70px;
+}
+
+@media(max-width:1280px){
+	.container{
+		width: 100%;
+	}
+}

@@ -49,6 +49,7 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	gap: 60px;
+	text-decoration: none;
 }
 
 .nav-branding{
